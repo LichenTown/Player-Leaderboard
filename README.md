@@ -1,4 +1,4 @@
-# LichenTown
+# Created for LichenTown
 <a href="../../"><img style="width:auto;height:96px;" src="https://github.com/user-attachments/assets/27d273e4-40b0-4c60-9bab-34dc3a3fcc15"></img></a>
 
 ## Player Leaderboard
