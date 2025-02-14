@@ -12,4 +12,5 @@ The leaderboard will then be populated with the selected data!
 Data is fetched from [player-stats](../../../player-stats), which means it is **not** automatically updated.<br>
 Player data can be updated by committing updated statistics to that repo.
 
+## Image
 ![lt_leaderboard](https://github.com/user-attachments/assets/ae8c4e40-2ab5-4d4a-aeb5-0a11c0264046)
