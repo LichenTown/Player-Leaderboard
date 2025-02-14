@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Leaderboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="banner-container">
+      <div class="banner"></div>
+    </div>
+    <div class="container">
+      <h1>Player Leaderboard</h1>
+
+      <section id="leaderboard-section">
+        <div class="podium">
+          <div class="podium-item podium-second">
+            <div class="podium-avatar-container">
+              <img
+                src="https://placehold.co/150x150/png?text=2nd"
+                alt="2nd Place"
+                id="second-place-avatar"
+                class="podium-avatar"
+              />
+            </div>
+            <div class="podium-rank">2</div>
+            <span id="second-place-name"></span>
+          </div>
+          <div class="podium-item podium-first">
+            <div class="podium-avatar-container">
+              <img
+                src="https://placehold.co/150x150/png?text=1st"
+                alt="1st Place"
+                id="first-place-avatar"
+                class="podium-avatar"
+              />
+            </div>
+            <div class="podium-rank">1</div>
+            <span id="first-place-name"></span>
+          </div>
+          <div class="podium-item podium-third">
+            <div class="podium-avatar-container">
+              <img
+                src="https://placehold.co/150x150/png?text=3rd"
+                alt="3rd Place"
+                id="third-place-avatar"
+                class="podium-avatar"
+              />
+            </div>
+            <div class="podium-rank">3</div>
+            <span id="third-place-name"></span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="select-group">
+            <label for="category">Category:</label>
+            <select id="category"></select>
+          </div>
+
+          <div class="select-group">
+            <label for="criteria">Criteria:</label>
+            <select id="criteria" disabled></select>
+          </div>
+
+          <button id="load-leaderboard">Load Leaderboard</button>
+        </div>
+
+        <table id="leaderboard">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="last-updated"></div>
+      </section>
+    </div>
+    <div class="loading-overlay">
+      <div class="spinner"></div>
+      <div>Loading...</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

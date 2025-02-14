@@ -1,0 +1,10 @@
+{
+  "name": "lt-player-leaderboard",
+  "version": "1.0.0",
+  "description": "Used to create statistics leaderboards for the LichenTown server.",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
