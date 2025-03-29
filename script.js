@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function displayLastCommitDate() {
   try {
     const response = await fetch(
-      `https://api.github.com/repos/LichenTown/Player-Leaderboard/commits?per_page=1`
+      `https://api.github.com/repos/LichenTown/player-stats/commits?per_page=1`
     );
     if (!response.ok) {
       throw new Error(`GitHub API Error: ${response.status}`);
